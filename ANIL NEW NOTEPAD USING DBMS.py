@@ -114,7 +114,7 @@ class notepad:
     
     def of(self,root2,resul,n,o):
      root2.destroy();
-     mydb=mysql.connector.connect(host='localhost',user='root',password='Saikat676@',database='db9');
+     mydb=mysql.connector.connect(host='localhost',user='root',password='*********',database='db9');
      cur=mydb.cursor();
      l="select text from inform where userid=%s and password=%s;"
      cur.execute(l,(n,o));
@@ -178,7 +178,7 @@ class notepad:
 
 
     def scf(self,root,result,tex,o,q,p):
-     mydb=mysql.connector.connect(host='localhost',user='root',password='Saikat676@',database='db9');
+     mydb=mysql.connector.connect(host='localhost',user='root',password='**********',database='db9');
      cur=mydb.cursor();
      l="select text from inform where userid=%s and password=%s;"
      cur.execute(l,(o,q));
