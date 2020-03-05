@@ -2,7 +2,7 @@ import mysql.connector
 import time
 from tkinter import *
 from tkinter import messagebox
-mydb=mysql.connector.connect(host='localhost',user='root',password='7209926909aA@',database="db9");
+mydb=mysql.connector.connect(host='localhost',user='root',password='*************',database="db9");
 mycoursor=mydb.cursor()
 mycoursor.execute("show database")
 class notepad:
